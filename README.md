@@ -1,0 +1,1 @@
+# catalog_resheniy_ckpr
