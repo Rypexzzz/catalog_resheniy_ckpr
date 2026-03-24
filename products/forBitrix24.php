@@ -320,6 +320,18 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       </a>
     </div>
 
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Smart AI</h3>
+      <p class="ckpr-product-desc">Сервис проверки заголовков задач на соответствие критериям SMART с помощью ИИ</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-smart-ai.png" alt="Smart AI">
+      </div>
+      <a href="page:#landing_smart_ai" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
     <!-- Добавьте дополнительные продукты по этому шаблону -->
     <!--
     <div class="ckpr-product">
