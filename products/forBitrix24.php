@@ -296,6 +296,18 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       </a>
     </div>
     
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Цифровая карта офиса</h3>
+      <p class="ckpr-product-desc">Модуль для визуализации планировки офисных пространств и поиска коллег, переговорных и оборудования</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-office-map.png" alt="Цифровая карта офиса">
+      </div>
+      <a href="page:#landing_office_map" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
     <!-- Добавьте дополнительные продукты по этому шаблону -->
     <!--
     <div class="ckpr-product">
