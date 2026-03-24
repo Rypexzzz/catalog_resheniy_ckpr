@@ -569,7 +569,7 @@
       <div class="ckpr-pricing-single-title">Разработка сайта с нуля с учетом специфики организации</div>
       <div class="ckpr-pricing-single-value">От 500 тыс. руб</div>
       <div class="ckpr-pricing-single-note">* за типовой сайт без доработок</div>
-      <a href="#" class="ckpr-btn">Заказать разработку</a>
+      <a href="form:#crmFormPopup" class="ckpr-btn">Заказать разработку</a>
     </div>
   </section>
 

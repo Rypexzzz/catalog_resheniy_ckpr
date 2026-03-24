@@ -516,7 +516,7 @@
     <div class="ckpr-hero-content">
       <h1 class="ckpr-hero-title">МаскИТ</h1>
       <p class="ckpr-hero-desc">Информационная система по обезличиванию и маскированию баз данных</p>
-      <a href="#" class="ckpr-btn">Презентация о продукте</a>
+      <a href="/upload/catalog_resheniy_ckpr_presentations/maskit.pdf" class="ckpr-btn" onclick="top.BX.SidePanel.Instance.open(this.href, {cacheable: false}); return false;">Презентация о продукте</a>
     </div>
     <div class="ckpr-hero-logo">
       <img src="/upload/catalog_resheniy_ckpr_icons/logo-maskit.png" alt="МаскИТ">
@@ -630,7 +630,7 @@
     <div class="ckpr-pricing-single">
       <div class="ckpr-pricing-single-title">Стоимость лицензии</div>
       <div class="ckpr-pricing-single-value">По запросу</div>
-      <a href="#" class="ckpr-btn">Заказать продукт</a>
+      <a href="form:#crmFormPopup" class="ckpr-btn">Заказать продукт</a>
     </div>
   </section>
 

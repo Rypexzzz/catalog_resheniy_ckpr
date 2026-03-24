@@ -685,7 +685,7 @@
     <div class="ckpr-pricing-single">
       <div class="ckpr-pricing-single-title">Стоимость внедрения и адаптации под специфику организации</div>
       <div class="ckpr-pricing-single-value">По запросу</div>
-      <a href="#" class="ckpr-btn">Оставить заявку</a>
+      <a href="form:#crmFormPopup" class="ckpr-btn">Оставить заявку</a>
     </div>
   </section>
 
@@ -701,11 +701,11 @@
         </div>
       </div>
       <div class="ckpr-contact">
-        <div class="ckpr-contact-name">Архипенко Антон Алексеевич</div>
+        <div class="ckpr-contact-name">Архипенко Антон Игоревич</div>
         <div class="ckpr-contact-role">Руководитель проектов</div>
         <div class="ckpr-contact-info">
           <a href="mailto:a.arkhipenko@gazpromcps.ru">a.arkhipenko@gazpromcps.ru</a>
-          <a href="tel:+79214305153">+7 921 430 51 53</a>
+          <a href="tel:+79118177060">+7 911 817 70 60</a>
         </div>
       </div>
     </div>
