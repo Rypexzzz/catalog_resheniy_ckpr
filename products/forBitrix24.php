@@ -356,6 +356,18 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       </a>
     </div>
 
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Умные заметки</h3>
+      <p class="ckpr-product-desc">Модуль для создания и совместной работы с иерархическими заметками в корпоративном пространстве</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-smart-notes.png" alt="Умные заметки">
+      </div>
+      <a href="page:#landing_smart_notes" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
     <!-- Добавьте дополнительные продукты по этому шаблону -->
     <!--
     <div class="ckpr-product">
