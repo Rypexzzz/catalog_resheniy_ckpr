@@ -308,6 +308,18 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       </a>
     </div>
 
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Система мотивации сотрудников</h3>
+      <p class="ckpr-product-desc">Модуль для квартального премирования на основе выполнения измеримых задач с расчётом эффективности</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-sms.png" alt="Система мотивации сотрудников">
+      </div>
+      <a href="page:#landing_sms" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
     <!-- Добавьте дополнительные продукты по этому шаблону -->
     <!--
     <div class="ckpr-product">
