@@ -344,6 +344,18 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       </a>
     </div>
 
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Интеграция с 1С:ЗУП</h3>
+      <p class="ckpr-product-desc">Модуль автоматической передачи данных об отсутствиях сотрудников из 1С:ЗУП в корпоративный портал</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-zup.png" alt="Интеграция с 1С:ЗУП">
+      </div>
+      <a href="page:#landing_zup" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
     <!-- Добавьте дополнительные продукты по этому шаблону -->
     <!--
     <div class="ckpr-product">
