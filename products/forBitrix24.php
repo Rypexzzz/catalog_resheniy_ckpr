@@ -296,6 +296,78 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       </a>
     </div>
     
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Цифровая карта офиса</h3>
+      <p class="ckpr-product-desc">Модуль для визуализации планировки офисных пространств и поиска коллег, переговорных и оборудования</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-office-map.png" alt="Цифровая карта офиса">
+      </div>
+      <a href="page:#landing_office_map" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Система мотивации сотрудников</h3>
+      <p class="ckpr-product-desc">Модуль для квартального премирования на основе выполнения измеримых задач с расчётом эффективности</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-sms.png" alt="Система мотивации сотрудников">
+      </div>
+      <a href="page:#landing_sms" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Smart AI</h3>
+      <p class="ckpr-product-desc">Сервис проверки заголовков задач на соответствие критериям SMART с помощью ИИ</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-smart-ai.png" alt="Smart AI">
+      </div>
+      <a href="page:#landing_smart_ai" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Интеграция с ИСУП Тиметта</h3>
+      <p class="ckpr-product-desc">Модуль автоматизации обмена данными с ИСУП в части ресурсного планирования и вакансий</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-timetta.png" alt="Интеграция с ИСУП Тиметта">
+      </div>
+      <a href="page:#landing_timetta" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Интеграция с 1С:ЗУП</h3>
+      <p class="ckpr-product-desc">Модуль автоматической передачи данных об отсутствиях сотрудников из 1С:ЗУП в корпоративный портал</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-zup.png" alt="Интеграция с 1С:ЗУП">
+      </div>
+      <a href="page:#landing_zup" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Умные заметки</h3>
+      <p class="ckpr-product-desc">Модуль для создания и совместной работы с иерархическими заметками в корпоративном пространстве</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-smart-notes.png" alt="Умные заметки">
+      </div>
+      <a href="page:#landing_smart_notes" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
     <!-- Добавьте дополнительные продукты по этому шаблону -->
     <!--
     <div class="ckpr-product">

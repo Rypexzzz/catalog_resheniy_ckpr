@@ -422,7 +422,7 @@
     <div class="ckpr-pricing-single">
       <div class="ckpr-pricing-single-title">Стоимость лицензии</div>
       <div class="ckpr-pricing-single-value">По запросу</div>
-      <a href="#" class="ckpr-btn">Заказать продукт</a>
+      <a href="form:#crmFormPopup" class="ckpr-btn">Заказать продукт</a>
     </div>
   </section>
 

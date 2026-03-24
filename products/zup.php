@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Модуль УПЦ</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com  ">
-  <link rel="preconnect" href="https://fonts.gstatic.com  " crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat  :wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>Модуль интеграции с 1С:ЗУП</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
@@ -51,7 +51,7 @@
     }
 
     .ckpr-hero-title {
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: 900;
       color: #0078C0;
       margin-bottom: 24px;
@@ -134,18 +134,6 @@
       color: #FFFFFF;
     }
 
-    .ckpr-btn-outline {
-      background: transparent;
-      border: 2px solid #0078C0;
-      color: #0078C0;
-      box-shadow: none;
-    }
-
-    .ckpr-btn-outline:hover {
-      background: #0078C0;
-      color: #FFFFFF;
-    }
-
     /* ===== СЕКЦИИ ===== */
     .ckpr-section {
       margin-bottom: 60px;
@@ -186,10 +174,6 @@
     .ckpr-capability:hover {
       transform: translateY(-5px);
       box-shadow: 0 12px 32px rgba(0, 120, 192, 0.18);
-    }
-
-    .ckpr-capability-full {
-      grid-column: 1 / -1;
     }
 
     .ckpr-capability-header {
@@ -286,82 +270,6 @@
       color: #333;
     }
 
-    .ckpr-spec-highlight {
-      margin-top: 24px;
-      background: linear-gradient(135deg, #0078C0 0%, #0088D4 100%);
-      border-radius: 16px;
-      padding: 32px;
-      display: flex;
-      align-items: center;
-      gap: 24px;
-      box-shadow: 0 8px 32px rgba(0, 120, 192, 0.3);
-    }
-
-    .ckpr-spec-highlight-icon {
-      width: 72px;
-      height: 72px;
-      background: rgba(255, 255, 255, 0.2);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-
-    .ckpr-spec-highlight-icon svg {
-      width: 36px;
-      height: 36px;
-      stroke: #FFFFFF;
-    }
-
-    .ckpr-spec-highlight-content {
-      flex: 1;
-    }
-
-    .ckpr-spec-highlight-title {
-      font-size: 1.2rem;
-      font-weight: 800;
-      color: #FFFFFF;
-      text-transform: uppercase;
-      margin-bottom: 12px;
-    }
-
-    .ckpr-spec-highlight-list {
-      list-style: none;
-    }
-
-    .ckpr-spec-highlight-list li {
-      font-size: 1rem;
-      font-weight: 500;
-      color: #FFFFFF;
-      padding: 8px 0 8px 28px;
-      position: relative;
-    }
-
-    .ckpr-spec-highlight-list li::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 18px;
-      height: 18px;
-      background: rgba(255, 255, 255, 0.3);
-      border-radius: 50%;
-    }
-
-    .ckpr-spec-highlight-list li::after {
-      content: '';
-      position: absolute;
-      left: 5px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 8px;
-      height: 8px;
-      background: #FFFFFF;
-      border-radius: 50%;
-    }
-
     /* ===== ПРЕИМУЩЕСТВА ===== */
     .ckpr-advantages {
       background: #FFFFFF;
@@ -422,7 +330,7 @@
     }
 
     .ckpr-pricing-single-value {
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-weight: 900;
       color: #0078C0;
       margin-bottom: 24px;
@@ -499,19 +407,6 @@
         grid-template-columns: 1fr;
       }
 
-      .ckpr-pricing-options {
-        grid-template-columns: 1fr;
-      }
-
-      .ckpr-spec-highlight {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .ckpr-spec-highlight-list li {
-        text-align: left;
-      }
-
       .ckpr-specs {
         flex-direction: column;
       }
@@ -527,7 +422,7 @@
       }
 
       .ckpr-hero-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
       }
 
       .ckpr-section-title {
@@ -546,12 +441,12 @@
 
   <section class="ckpr-hero">
     <div class="ckpr-hero-content">
-      <h1 class="ckpr-hero-title">Модуль УПЦ</h1>
-      <p class="ckpr-hero-desc">Инструмент для управления рабочими процессами и контроля достижения стратегических целей общества</p>
-      <a href="/upload/catalog_resheniy_ckpr_presentations/upc.pdf" class="ckpr-btn" onclick="top.BX.SidePanel.Instance.open(this.href, {cacheable: false}); return false;">Презентация о продукте</a>
+      <h1 class="ckpr-hero-title">Модуль интеграции с 1С:ЗУП</h1>
+      <p class="ckpr-hero-desc">Модуль для автоматической передачи данных об отсутствиях сотрудников из системы 1С:Зарплата и управление персоналом в корпоративный портал</p>
+      <a href="/upload/catalog_resheniy_ckpr_presentations/zup.pdf" class="ckpr-btn" onclick="top.BX.SidePanel.Instance.open(this.href, {cacheable: false}); return false;">Презентация о продукте</a>
     </div>
     <div class="ckpr-hero-logo">
-      <img src="/upload/catalog_resheniy_ckpr_icons/logo-upc.png" alt="Модуль УПЦ">
+      <img src="/upload/catalog_resheniy_ckpr_icons/logo-zup.png" alt="Модуль интеграции с 1С:ЗУП">
     </div>
   </section>
 
@@ -561,42 +456,56 @@
       <div class="ckpr-capability">
         <div class="ckpr-capability-header">
           <div class="ckpr-capability-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M17 11l2 2 4-4"/></svg>
           </div>
-          <div class="ckpr-capability-title">Постановка целей</div>
+          <div class="ckpr-capability-title">Синхронизация статусов сотрудников</div>
         </div>
         <ul class="ckpr-capability-list">
-          <li>Составление карты и корпоративных целей</li>
-          <li>Формирование карт целей</li>
-          <li>Каскадирование целей</li>
-          <li>Согласование и утверждение карт целей</li>
-          <li>Делегирование формирования части целей</li>
+          <li>Автоматическая передача актуального статуса присутствия/отсутствия каждого сотрудника</li>
+          <li>Оперативное отображение изменений статуса на портале</li>
         </ul>
       </div>
       <div class="ckpr-capability">
         <div class="ckpr-capability-header">
           <div class="ckpr-capability-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
           </div>
-          <div class="ckpr-capability-title">Мониторинг выполнения процесса целеполагания</div>
+          <div class="ckpr-capability-title">Учёт всех видов отсутствий</div>
         </div>
         <ul class="ckpr-capability-list">
-          <li>Проверка отклонений</li>
-          <li>Корректировка целей при выявлении отклонений</li>
-          <li>Добавление промежуточных оценок</li>
+          <li>Ежегодные и дополнительные отпуска</li>
+          <li>Командировки</li>
+          <li>Больничные</li>
+          <li>Декретные отпуска</li>
+          <li>Отпуска по уходу за ребёнком</li>
+          <li>Простои и отстранения</li>
+          <li>Учебные отпуска</li>
+          <li>Отпуска без сохранения заработной платы</li>
         </ul>
       </div>
-      <div class="ckpr-capability ckpr-capability-full">
+      <div class="ckpr-capability">
         <div class="ckpr-capability-header">
           <div class="ckpr-capability-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
           </div>
-          <div class="ckpr-capability-title">Подведение итогов процесса целеполагания</div>
+          <div class="ckpr-capability-title">Автоматическая категоризация</div>
         </div>
         <ul class="ckpr-capability-list">
-          <li>Формирование итоговой оценки по карте целей</li>
-          <li>Составление и утверждение оценок</li>
-          <li>Добавление дополнительных инициатив и согласование оценки за их выполнение</li>
+          <li>Преобразование типов отсутствий из 1С в понятные статусы на портале</li>
+          <li>Группировка по категориям: Ежегодный отпуск, Отпуск, Командировка, Декретный отпуск, Отсутствие</li>
+        </ul>
+      </div>
+      <div class="ckpr-capability">
+        <div class="ckpr-capability-header">
+          <div class="ckpr-capability-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+          </div>
+          <div class="ckpr-capability-title">Обмен данными</div>
+        </div>
+        <ul class="ckpr-capability-list">
+          <li>Передача данных в формате JSON-пакетов</li>
+          <li>Очередь выгрузки для контроля отправки данных</li>
+          <li>Логирование отправляемых данных</li>
         </ul>
       </div>
     </div>
@@ -611,23 +520,11 @@
       </div>
       <div class="ckpr-spec">
         <div class="ckpr-spec-label">Технологический стек</div>
-        <div class="ckpr-spec-value">PHP, JS (Vue)</div>
+        <div class="ckpr-spec-value">PHP, REST API, JSON</div>
       </div>
       <div class="ckpr-spec">
-        <div class="ckpr-spec-label">Год ввода в эксплуатацию</div>
-        <div class="ckpr-spec-value">2024</div>
-      </div>
-    </div>
-    <div class="ckpr-spec-highlight">
-      <div class="ckpr-spec-highlight-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
-      </div>
-      <div class="ckpr-spec-highlight-content">
-        <div class="ckpr-spec-highlight-title">Наличие в реестре ПО РФ</div>
-        <ul class="ckpr-spec-highlight-list">
-          <li>Имеет свидетельство о государственной регистрации в Роспатенте</li>
-          <li>Включен в реестр Российского ПО от Минцифры</li>
-        </ul>
+        <div class="ckpr-spec-label">Интеграции</div>
+        <div class="ckpr-spec-value">1С:Зарплата и управление персоналом КОРП</div>
       </div>
     </div>
   </section>
@@ -638,31 +535,27 @@
       <ul class="ckpr-advantages-list">
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Единое пространство для учета целей
+          Оперативный учёт всех видов отсутствий — отпуска, командировки, больничные, простои
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Автоматизация процесса постановки/делегирования целей
+          Повышение прозрачности планирования задач — руководители всегда располагают достоверной информацией о доступности сотрудников
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Система контроля и самоконтроля
+          Автоматическое отображение изменений — любые изменения статуса сотрудника сразу видны на портале
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Прозрачный процесс целеполагания, мониторинга исполнения и подведения итогов
+          Исключение ручного переноса данных между системами
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Возможность получения отчетов и печатных форм
+          Единый источник информации о присутствии сотрудников для всей компании
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Использование импортонезависимой технологической платформы
-        </li>
-        <li>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Бесшовная интеграция модуля в корпоративный портал Компании
+          Поддержка всех типов отсутствий, предусмотренных в 1С:ЗУП
         </li>
       </ul>
     </div>
@@ -671,9 +564,9 @@
   <section class="ckpr-section">
     <h2 class="ckpr-section-title">Стоимость</h2>
     <div class="ckpr-pricing-single">
-      <div class="ckpr-pricing-single-title">Бессрочная лицензия + Услуги по адаптации под специфику организации</div>
-      <div class="ckpr-pricing-single-value">410 тыс. руб</div>
-      <a href="form:#crmFormPopup96" class="ckpr-btn">Купить продукт</a>
+      <div class="ckpr-pricing-single-title">Стоимость внедрения и адаптации под специфику организации</div>
+      <div class="ckpr-pricing-single-value">По запросу</div>
+      <a href="form:#crmFormPopup" class="ckpr-btn">Оставить заявку</a>
     </div>
   </section>
 
@@ -690,7 +583,7 @@
       </div>
       <div class="ckpr-contact">
         <div class="ckpr-contact-name">Архипенко Антон Игоревич</div>
-        <div class="ckpr-contact-role">Начальник отдела разработки внутренних решений</div>
+        <div class="ckpr-contact-role">Руководитель проектов</div>
         <div class="ckpr-contact-info">
           <a href="mailto:a.arkhipenko@gazpromcps.ru">a.arkhipenko@gazpromcps.ru</a>
           <a href="tel:+79118177060">+7 911 817 70 60</a>

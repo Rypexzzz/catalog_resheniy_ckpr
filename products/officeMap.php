@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Модуль УПЦ</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com  ">
-  <link rel="preconnect" href="https://fonts.gstatic.com  " crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat  :wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>Цифровая карта офиса</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
@@ -134,18 +134,6 @@
       color: #FFFFFF;
     }
 
-    .ckpr-btn-outline {
-      background: transparent;
-      border: 2px solid #0078C0;
-      color: #0078C0;
-      box-shadow: none;
-    }
-
-    .ckpr-btn-outline:hover {
-      background: #0078C0;
-      color: #FFFFFF;
-    }
-
     /* ===== СЕКЦИИ ===== */
     .ckpr-section {
       margin-bottom: 60px;
@@ -186,10 +174,6 @@
     .ckpr-capability:hover {
       transform: translateY(-5px);
       box-shadow: 0 12px 32px rgba(0, 120, 192, 0.18);
-    }
-
-    .ckpr-capability-full {
-      grid-column: 1 / -1;
     }
 
     .ckpr-capability-header {
@@ -422,7 +406,7 @@
     }
 
     .ckpr-pricing-single-value {
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-weight: 900;
       color: #0078C0;
       margin-bottom: 24px;
@@ -499,10 +483,6 @@
         grid-template-columns: 1fr;
       }
 
-      .ckpr-pricing-options {
-        grid-template-columns: 1fr;
-      }
-
       .ckpr-spec-highlight {
         flex-direction: column;
         text-align: center;
@@ -546,12 +526,12 @@
 
   <section class="ckpr-hero">
     <div class="ckpr-hero-content">
-      <h1 class="ckpr-hero-title">Модуль УПЦ</h1>
-      <p class="ckpr-hero-desc">Инструмент для управления рабочими процессами и контроля достижения стратегических целей общества</p>
-      <a href="/upload/catalog_resheniy_ckpr_presentations/upc.pdf" class="ckpr-btn" onclick="top.BX.SidePanel.Instance.open(this.href, {cacheable: false}); return false;">Презентация о продукте</a>
+      <h1 class="ckpr-hero-title">Цифровая карта офиса</h1>
+      <p class="ckpr-hero-desc">Специализированный модуль для визуализации планировки офисных пространств и предоставления актуальной справочной информации о расположении коллег, переговорных комнат, оборудования и служб компании</p>
+      <a href="/upload/catalog_resheniy_ckpr_presentations/office-map.pdf" class="ckpr-btn" onclick="top.BX.SidePanel.Instance.open(this.href, {cacheable: false}); return false;">Презентация о продукте</a>
     </div>
     <div class="ckpr-hero-logo">
-      <img src="/upload/catalog_resheniy_ckpr_icons/logo-upc.png" alt="Модуль УПЦ">
+      <img src="/upload/catalog_resheniy_ckpr_icons/logo-office-map.png" alt="Цифровая карта офиса">
     </div>
   </section>
 
@@ -561,42 +541,75 @@
       <div class="ckpr-capability">
         <div class="ckpr-capability-header">
           <div class="ckpr-capability-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
           </div>
-          <div class="ckpr-capability-title">Постановка целей</div>
+          <div class="ckpr-capability-title">Интерактивная карта офиса</div>
         </div>
         <ul class="ckpr-capability-list">
-          <li>Составление карты и корпоративных целей</li>
-          <li>Формирование карт целей</li>
-          <li>Каскадирование целей</li>
-          <li>Согласование и утверждение карт целей</li>
-          <li>Делегирование формирования части целей</li>
+          <li>Визуализация планировки офисных пространств с возможностью масштабирования и перемещения</li>
+          <li>Переключение между этажами и бизнес-центрами</li>
         </ul>
       </div>
       <div class="ckpr-capability">
         <div class="ckpr-capability-header">
           <div class="ckpr-capability-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
           </div>
-          <div class="ckpr-capability-title">Мониторинг выполнения процесса целеполагания</div>
+          <div class="ckpr-capability-title">Поиск сотрудников</div>
         </div>
         <ul class="ckpr-capability-list">
-          <li>Проверка отклонений</li>
-          <li>Корректировка целей при выявлении отклонений</li>
-          <li>Добавление промежуточных оценок</li>
+          <li>Мгновенный поиск месторасположения коллег по ФИО</li>
+          <li>Отображение контактных данных и привязка к рабочему месту на карте</li>
+          <li>Автоматический переход к нужному бизнес-центру и этажу</li>
         </ul>
       </div>
-      <div class="ckpr-capability ckpr-capability-full">
+      <div class="ckpr-capability">
         <div class="ckpr-capability-header">
           <div class="ckpr-capability-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
           </div>
-          <div class="ckpr-capability-title">Подведение итогов процесса целеполагания</div>
+          <div class="ckpr-capability-title">Бронирование переговорных</div>
         </div>
         <ul class="ckpr-capability-list">
-          <li>Формирование итоговой оценки по карте целей</li>
-          <li>Составление и утверждение оценок</li>
-          <li>Добавление дополнительных инициатив и согласование оценки за их выполнение</li>
+          <li>Поиск и оценка параметров переговорных комнат (вместимость, оснащение)</li>
+          <li>Проверка доступности и бронирование с интеграцией в Outlook</li>
+          <li>Уведомления участников о начале встречи</li>
+        </ul>
+      </div>
+      <div class="ckpr-capability">
+        <div class="ckpr-capability-header">
+          <div class="ckpr-capability-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+          </div>
+          <div class="ckpr-capability-title">Бронирование рабочих мест</div>
+        </div>
+        <ul class="ckpr-capability-list">
+          <li>Поиск свободных рабочих мест в коворкингах</li>
+          <li>Гибкие правила бронирования (на неделю вперёд, с 08:00 до 19:00)</li>
+          <li>Просмотр и управление своими бронированиями</li>
+        </ul>
+      </div>
+      <div class="ckpr-capability">
+        <div class="ckpr-capability-header">
+          <div class="ckpr-capability-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <div class="ckpr-capability-title">Поиск оборудования и служб</div>
+        </div>
+        <ul class="ckpr-capability-list">
+          <li>Быстрый поиск офисного оборудования с описанием и инструкциями</li>
+          <li>Фильтрация по корпоративным службам с переходом к ответственному сотруднику</li>
+        </ul>
+      </div>
+      <div class="ckpr-capability">
+        <div class="ckpr-capability-header">
+          <div class="ckpr-capability-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+          </div>
+          <div class="ckpr-capability-title">Администрирование</div>
+        </div>
+        <ul class="ckpr-capability-list">
+          <li>Отдельный раздел для актуализации данных о сотрудниках и объектах карты</li>
         </ul>
       </div>
     </div>
@@ -611,11 +624,15 @@
       </div>
       <div class="ckpr-spec">
         <div class="ckpr-spec-label">Технологический стек</div>
-        <div class="ckpr-spec-value">PHP, JS (Vue)</div>
+        <div class="ckpr-spec-value">PHP, JS, CSS</div>
+      </div>
+      <div class="ckpr-spec">
+        <div class="ckpr-spec-label">Интеграции</div>
+        <div class="ckpr-spec-value">Microsoft Outlook</div>
       </div>
       <div class="ckpr-spec">
         <div class="ckpr-spec-label">Год ввода в эксплуатацию</div>
-        <div class="ckpr-spec-value">2024</div>
+        <div class="ckpr-spec-value">2025</div>
       </div>
     </div>
     <div class="ckpr-spec-highlight">
@@ -626,7 +643,6 @@
         <div class="ckpr-spec-highlight-title">Наличие в реестре ПО РФ</div>
         <ul class="ckpr-spec-highlight-list">
           <li>Имеет свидетельство о государственной регистрации в Роспатенте</li>
-          <li>Включен в реестр Российского ПО от Минцифры</li>
         </ul>
       </div>
     </div>
@@ -638,31 +654,27 @@
       <ul class="ckpr-advantages-list">
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Единое пространство для учета целей
+          Повышение операционной эффективности — сокращение непродуктивных потерь времени на поиск коллег, помещений и ресурсов
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Автоматизация процесса постановки/делегирования целей
+          Улучшение адаптации новых сотрудников — снижение нагрузки на HR и наставников, ускорение вхождения в рабочий процесс
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Система контроля и самоконтроля
+          Единый надёжный источник данных об офисе — снижение количества ошибок в рабочих процессах
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Прозрачный процесс целеполагания, мониторинга исполнения и подведения итогов
+          Интеграция удалённых сотрудников — сервис делает удалённых коллег «видимыми» и доступными для коммуникации
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Возможность получения отчетов и печатных форм
+          Экономия времени и снижение стресса — мгновенный доступ к нужной информации
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Использование импортонезависимой технологической платформы
-        </li>
-        <li>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          Бесшовная интеграция модуля в корпоративный портал Компании
+          Поддержка гибридного формата работы — понятный инструмент для планирования встреч с учётом присутствия коллег в офисе
         </li>
       </ul>
     </div>
@@ -671,9 +683,9 @@
   <section class="ckpr-section">
     <h2 class="ckpr-section-title">Стоимость</h2>
     <div class="ckpr-pricing-single">
-      <div class="ckpr-pricing-single-title">Бессрочная лицензия + Услуги по адаптации под специфику организации</div>
-      <div class="ckpr-pricing-single-value">410 тыс. руб</div>
-      <a href="form:#crmFormPopup96" class="ckpr-btn">Купить продукт</a>
+      <div class="ckpr-pricing-single-title">Стоимость внедрения и адаптации под специфику организации</div>
+      <div class="ckpr-pricing-single-value">По запросу</div>
+      <a href="form:#crmFormPopup" class="ckpr-btn">Оставить заявку</a>
     </div>
   </section>
 
@@ -690,7 +702,7 @@
       </div>
       <div class="ckpr-contact">
         <div class="ckpr-contact-name">Архипенко Антон Игоревич</div>
-        <div class="ckpr-contact-role">Начальник отдела разработки внутренних решений</div>
+        <div class="ckpr-contact-role">Руководитель проектов</div>
         <div class="ckpr-contact-info">
           <a href="mailto:a.arkhipenko@gazpromcps.ru">a.arkhipenko@gazpromcps.ru</a>
           <a href="tel:+79118177060">+7 911 817 70 60</a>

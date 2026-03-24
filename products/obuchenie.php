@@ -537,7 +537,7 @@
     <div class="ckpr-hero-content">
       <h1 class="ckpr-hero-title">Модуль обучения</h1>
       <p class="ckpr-hero-desc">Инструмент для повышения доступности и эффективности обучения пользователей</p>
-      <a href="#" class="ckpr-btn">Презентация о продукте</a>
+      <a href="/upload/catalog_resheniy_ckpr_presentations/obuchenie.pdf" class="ckpr-btn" onclick="top.BX.SidePanel.Instance.open(this.href, {cacheable: false}); return false;">Презентация о продукте</a>
     </div>
     <div class="ckpr-hero-logo">
       <img src="/upload/catalog_resheniy_ckpr_icons/logo-obuchenie.png" alt="Модуль обучения">
@@ -656,7 +656,7 @@
         </div>
       </div>
       <div class="ckpr-pricing-btn">
-        <a href="#" class="ckpr-btn">Купить продукт</a>
+        <a href="form:#crmFormPopup" class="ckpr-btn">Купить продукт</a>
       </div>
     </div>
   </section>
@@ -666,10 +666,10 @@
     <div class="ckpr-contacts">
       <div class="ckpr-contact">
         <div class="ckpr-contact-name">Яковлев Артем Викторович</div>
-        <div class="ckpr-contact-role">Руководитель центра компетенций по разработке тиражных решений</div>
+        <div class="ckpr-contact-role">Руководитель центра компетенций по разработке портальных решений</div>
         <div class="ckpr-contact-info">
           <a href="mailto:a.yakovlev@gazpromcps.ru">a.yakovlev@gazpromcps.ru</a>
-          <a href="tel:+73218567803">+7 321 856 78 03</a>
+          <a href="tel:+79218567609">+7 921 856 76 09</a>
         </div>
       </div>
       <div class="ckpr-contact">
@@ -677,7 +677,7 @@
         <div class="ckpr-contact-role">Начальник отдела разработки внутренних решений</div>
         <div class="ckpr-contact-info">
           <a href="mailto:a.arkhipenko@gazpromcps.ru">a.arkhipenko@gazpromcps.ru</a>
-          <a href="tel:+79188777060">+7 918 877 70 60</a>
+          <a href="tel:+79118177060">+7 911 817 70 60</a>
         </div>
       </div>
     </div>
