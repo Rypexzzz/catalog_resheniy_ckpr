@@ -332,6 +332,18 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       </a>
     </div>
 
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Интеграция с ИСУП Тиметта</h3>
+      <p class="ckpr-product-desc">Модуль автоматизации обмена данными с ИСУП в части ресурсного планирования и вакансий</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-timetta.png" alt="Интеграция с ИСУП Тиметта">
+      </div>
+      <a href="page:#landing_timetta" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
     <!-- Добавьте дополнительные продукты по этому шаблону -->
     <!--
     <div class="ckpr-product">
