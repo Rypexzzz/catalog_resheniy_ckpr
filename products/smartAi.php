@@ -587,6 +587,7 @@
       </div>
       <div class="ckpr-contact">
         <div class="ckpr-contact-name">Жарский Александр Николаевич</div>
+        <div class="ckpr-contact-role">Руководитель команды разработки внешних решений</div>
         <div class="ckpr-contact-info">
           <a href="mailto:a.zharsky@gazpromcps.ru">a.zharsky@gazpromcps.ru</a>
         </div>
