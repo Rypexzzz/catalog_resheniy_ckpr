@@ -281,9 +281,9 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
   
   <div class="ckpr-products">
 
-    <!-- Кастомные модули для Битрикс24 -->
+    <!-- Корпоративный портал на платформе Битрикс24 -->
     <div class="ckpr-category">
-      <h2 class="ckpr-category-title">Кастомные модули для Битрикс24</h2>
+      <h2 class="ckpr-category-title">Корпоративный портал на платформе Битрикс24</h2>
       <div class="ckpr-category-products">
 
         <div class="ckpr-product">
@@ -297,6 +297,14 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
             <span class="ckpr-product-btn-arrow">→</span>
           </a>
         </div>
+
+      </div>
+    </div>
+
+    <!-- Кастомные модули для Битрикс24 -->
+    <div class="ckpr-category">
+      <h2 class="ckpr-category-title">Кастомные модули для Битрикс24</h2>
+      <div class="ckpr-category-products">
 
         <div class="ckpr-product">
           <h3 class="ckpr-product-title">Модуль «УПЦ»</h3>
