@@ -368,6 +368,54 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       </a>
     </div>
 
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Модуль интеграции с Visiology</h3>
+      <p class="ckpr-product-desc">Встраивание аналитических дашбордов BI-платформы Visiology в интерфейс корпоративного портала</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-visiology-integration.png" alt="Модуль интеграции с Visiology">
+      </div>
+      <a href="page:#landing_visiology_integration" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Модуль постановки задач из почты</h3>
+      <p class="ckpr-product-desc">Автоматизация постановки задач на портале посредством отправки электронного письма на выделенный адрес</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-email-to-task.png" alt="Модуль постановки задач из почты">
+      </div>
+      <a href="page:#landing_email_to_task" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Избранные комментарии</h3>
+      <p class="ckpr-product-desc">Быстрое сохранение и доступ к важным комментариям в задачах и обсуждениях с помощью отметки «Избранное»</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-favorite-comments.png" alt="Избранные комментарии">
+      </div>
+      <a href="page:#landing_favorite_comments" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Виджет «Прогноз погоды»</h3>
+      <p class="ckpr-product-desc">Текущая погода и прогноз на ближайшие дни прямо на главной странице портала</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-weather-widget.png" alt="Виджет «Прогноз погоды»">
+      </div>
+      <a href="page:#landing_weather_widget" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
     <!-- Добавьте дополнительные продукты по этому шаблону -->
     <!--
     <div class="ckpr-product">
