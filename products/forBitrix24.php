@@ -404,6 +404,18 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       </a>
     </div>
 
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Виджет «Прогноз погоды»</h3>
+      <p class="ckpr-product-desc">Текущая погода и прогноз на ближайшие дни прямо на главной странице портала</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-weather-widget.png" alt="Виджет «Прогноз погоды»">
+      </div>
+      <a href="page:#landing_weather_widget" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
     <!-- Добавьте дополнительные продукты по этому шаблону -->
     <!--
     <div class="ckpr-product">
