@@ -4,9 +4,9 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
 ?>
 
 <!-- Подключение шрифта Montserrat -->
-<link rel="preconnect" href="https://fonts.googleapis.com  ">
-<link rel="preconnect" href="https://fonts.gstatic.com  " crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat  :wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 <style>
 /* ====================================
@@ -288,7 +288,7 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       <h3 class="ckpr-product-title">Портал самообслуживания</h3>
       <p class="ckpr-product-desc">Портал для работников с цифровизацией основных бизнес-процессов</p>
       <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-pso.png" alt="УПЦ">
+        <img src="<?= $logoPath ?>/logo-pso.png" alt="Портал самообслуживания">
       </div>
       <a href="page:#landing4133" class="ckpr-product-btn">
         Перейти к странице продукта

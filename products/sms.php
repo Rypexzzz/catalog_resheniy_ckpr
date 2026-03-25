@@ -608,7 +608,7 @@
       </div>
       <div class="ckpr-contact">
         <div class="ckpr-contact-name">Архипенко Антон Игоревич</div>
-        <div class="ckpr-contact-role">Руководитель проектов</div>
+        <div class="ckpr-contact-role">Начальник отдела разработки внутренних решений</div>
         <div class="ckpr-contact-info">
           <a href="mailto:a.arkhipenko@gazpromcps.ru">a.arkhipenko@gazpromcps.ru</a>
           <a href="tel:+79118177060">+7 911 817 70 60</a>
