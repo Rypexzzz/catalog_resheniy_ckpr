@@ -4,9 +4,9 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
 ?>
 
 <!-- Подключение шрифта Montserrat -->
-<link rel="preconnect" href="https://fonts.googleapis.com  ">
-<link rel="preconnect" href="https://fonts.gstatic.com  " crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat  :wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 <style>
 /* ====================================
@@ -252,7 +252,7 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       <h3 class="ckpr-product-title">МаскИТ</h3>
       <p class="ckpr-product-desc">ПО для обезличивания баз данных</p>
       <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-maskit.png" alt="КИС">
+        <img src="<?= $logoPath ?>/logo-maskit.png" alt="МаскИТ">
       </div>
       <a href="https://cis.gazpromcps.ru/knowledge/block_it/maskit/?IFRAME=Y" class="ckpr-product-btn">
         Перейти к странице продукта
@@ -264,7 +264,7 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       <h3 class="ckpr-product-title">Дашборд стендов разработки</h3>
       <p class="ckpr-product-desc">Инструмент мониторинга сред разработки</p>
       <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-monitoring.png" alt="УПЦ">
+        <img src="<?= $logoPath ?>/logo-monitoring.png" alt="Дашборд стендов разработки">
       </div>
       <a href="https://cis.gazpromcps.ru/knowledge/block_it/dashbordstendovrazrabotki/?IFRAME=Y" class="ckpr-product-btn">
         Перейти к странице продукта
@@ -276,7 +276,7 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       <h3 class="ckpr-product-title">Нагрузочное тестирование</h3>
       <p class="ckpr-product-desc">Инструмент проведения нагрузочного тестирования</p>
       <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-nagrtest.png" alt="Модуль обучения">
+        <img src="<?= $logoPath ?>/logo-nagrtest.png" alt="Нагрузочное тестирование">
       </div>
       <a href="https://cis.gazpromcps.ru/knowledge/block_it/instrumentnagruzochnogotestirovaniya" class="ckpr-product-btn">
         Перейти к странице продукта

@@ -4,9 +4,9 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
 ?>
 
 <!-- Подключение шрифта Montserrat -->
-<link rel="preconnect" href="https://fonts.googleapis.com  ">
-<link rel="preconnect" href="https://fonts.gstatic.com  " crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat  :wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 <style>
 /* ====================================
@@ -252,7 +252,7 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       <h3 class="ckpr-product-title">Сайт-визитка</h3>
       <p class="ckpr-product-desc">Сайт с информацией о компании и ее деятельности</p>
       <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-website.png" alt="КИС">
+        <img src="<?= $logoPath ?>/logo-website.png" alt="Сайт-визитка">
       </div>
       <a href="https://cis.gazpromcps.ru/knowledge/block_it/saytvizitka/?IFRAME=Y" class="ckpr-product-btn">
         Перейти к странице продукта
