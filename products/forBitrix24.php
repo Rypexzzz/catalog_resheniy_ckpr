@@ -392,6 +392,18 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
       </a>
     </div>
 
+    <div class="ckpr-product">
+      <h3 class="ckpr-product-title">Избранные комментарии</h3>
+      <p class="ckpr-product-desc">Быстрое сохранение и доступ к важным комментариям в задачах и обсуждениях с помощью отметки «Избранное»</p>
+      <div class="ckpr-product-logo">
+        <img src="<?= $logoPath ?>/logo-favorite-comments.png" alt="Избранные комментарии">
+      </div>
+      <a href="page:#landing_favorite_comments" class="ckpr-product-btn">
+        Перейти к странице продукта
+        <span class="ckpr-product-btn-arrow">→</span>
+      </a>
+    </div>
+
     <!-- Добавьте дополнительные продукты по этому шаблону -->
     <!--
     <div class="ckpr-product">
