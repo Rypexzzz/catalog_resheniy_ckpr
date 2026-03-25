@@ -212,8 +212,41 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
   transform: translateX(4px);
 }
 
+.ckpr-category {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.ckpr-category:first-child {
+  margin-top: 0;
+}
+
+.ckpr-category-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #0078C0;
+  margin: 0 0 24px 0;
+  padding-bottom: 12px;
+  border-bottom: 3px solid rgba(0, 120, 192, 0.2);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  animation: ckprFadeInUp 0.6s ease-out both;
+}
+
+.ckpr-category-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
 /* Адаптив */
 @media (max-width: 768px) {
+  .ckpr-category-title {
+    font-size: 1.2rem;
+  }
   .ckpr-section {
     padding: 40px 20px;
     border-radius: 12px;
@@ -247,189 +280,198 @@ $logoPath = '/upload/catalog_resheniy_ckpr_icons';
   </div>
   
   <div class="ckpr-products">
-    
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Корпоративный портал</h3>
-      <p class="ckpr-product-desc">Корпоративный портал для сотрудников</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-kis.png" alt="КИС">
+
+    <!-- Кастомные модули для Битрикс24 -->
+    <div class="ckpr-category">
+      <h2 class="ckpr-category-title">Кастомные модули для Битрикс24</h2>
+      <div class="ckpr-category-products">
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Корпоративный портал</h3>
+          <p class="ckpr-product-desc">Корпоративный портал для сотрудников</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-kis.png" alt="КИС">
+          </div>
+          <a href="https://cis.gazpromcps.ru/knowledge/block_it/korporativnyyportal/?IFRAME=Y" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Модуль «УПЦ»</h3>
+          <p class="ckpr-product-desc">Модуль для корпоративного портала «Управление по целям»</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-upc.png" alt="УПЦ">
+          </div>
+          <a href="https://cis.gazpromcps.ru/knowledge/block_it/modulupts/?IFRAME=Y" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Модуль обучения</h3>
+          <p class="ckpr-product-desc">Модуль для корпоративного портала «Модуль обучения»</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-obuchenie.png" alt="Модуль обучения">
+          </div>
+          <a href="https://cis.gazpromcps.ru/knowledge/block_it/modulobucheniya/?IFRAME=Y" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Портал самообслуживания</h3>
+          <p class="ckpr-product-desc">Портал для работников с цифровизацией основных бизнес-процессов</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-pso.png" alt="Портал самообслуживания">
+          </div>
+          <a href="page:#landing4133" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Цифровая карта офиса</h3>
+          <p class="ckpr-product-desc">Модуль для визуализации планировки офисных пространств и поиска коллег, переговорных и оборудования</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-office-map.png" alt="Цифровая карта офиса">
+          </div>
+          <a href="page:#landing_office_map" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Система мотивации сотрудников</h3>
+          <p class="ckpr-product-desc">Модуль для квартального премирования на основе выполнения измеримых задач с расчётом эффективности</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-sms.png" alt="Система мотивации сотрудников">
+          </div>
+          <a href="page:#landing_sms" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Умные заметки</h3>
+          <p class="ckpr-product-desc">Модуль для создания и совместной работы с иерархическими заметками в корпоративном пространстве</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-smart-notes.png" alt="Умные заметки">
+          </div>
+          <a href="page:#landing_smart_notes" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
       </div>
-      <a href="https://cis.gazpromcps.ru/knowledge/block_it/korporativnyyportal/?IFRAME=Y" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
-    </div>
-    
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Модуль «УПЦ»</h3>
-      <p class="ckpr-product-desc">Модуль для корпоративного портала «Управление по целям»</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-upc.png" alt="УПЦ">
-      </div>
-      <a href="https://cis.gazpromcps.ru/knowledge/block_it/modulupts/?IFRAME=Y" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
-    </div>
-    
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Модуль обучения</h3>
-      <p class="ckpr-product-desc">Модуль для корпоративного портала «Модуль обучения»</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-obuchenie.png" alt="Модуль обучения">
-      </div>
-      <a href="https://cis.gazpromcps.ru/knowledge/block_it/modulobucheniya/?IFRAME=Y" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
-    </div>
-    
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Портал самообслуживания</h3>
-      <p class="ckpr-product-desc">Портал для работников с цифровизацией основных бизнес-процессов</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-pso.png" alt="Портал самообслуживания">
-      </div>
-      <a href="page:#landing4133" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
-    </div>
-    
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Цифровая карта офиса</h3>
-      <p class="ckpr-product-desc">Модуль для визуализации планировки офисных пространств и поиска коллег, переговорных и оборудования</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-office-map.png" alt="Цифровая карта офиса">
-      </div>
-      <a href="page:#landing_office_map" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
     </div>
 
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Система мотивации сотрудников</h3>
-      <p class="ckpr-product-desc">Модуль для квартального премирования на основе выполнения измеримых задач с расчётом эффективности</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-sms.png" alt="Система мотивации сотрудников">
+    <!-- Интеграционные решения для Битрикс24 -->
+    <div class="ckpr-category">
+      <h2 class="ckpr-category-title">Интеграционные решения для Битрикс24</h2>
+      <div class="ckpr-category-products">
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Интеграция с ИСУП Тиметта</h3>
+          <p class="ckpr-product-desc">Модуль автоматизации обмена данными с ИСУП в части ресурсного планирования и вакансий</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-timetta.png" alt="Интеграция с ИСУП Тиметта">
+          </div>
+          <a href="page:#landing_timetta" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Интеграция с 1С:ЗУП</h3>
+          <p class="ckpr-product-desc">Модуль автоматической передачи данных об отсутствиях сотрудников из 1С:ЗУП в корпоративный портал</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-zup.png" alt="Интеграция с 1С:ЗУП">
+          </div>
+          <a href="page:#landing_zup" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Модуль интеграции с Visiology</h3>
+          <p class="ckpr-product-desc">Встраивание аналитических дашбордов BI-платформы Visiology в интерфейс корпоративного портала</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-visiology-integration.png" alt="Модуль интеграции с Visiology">
+          </div>
+          <a href="page:#landing_visiology_integration" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
       </div>
-      <a href="page:#landing_sms" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
     </div>
 
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Smart AI</h3>
-      <p class="ckpr-product-desc">Сервис проверки заголовков задач на соответствие критериям SMART с помощью ИИ</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-smart-ai.png" alt="Smart AI">
+    <!-- Прочие решения -->
+    <div class="ckpr-category">
+      <h2 class="ckpr-category-title">Прочие решения</h2>
+      <div class="ckpr-category-products">
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Модуль постановки задач из почты</h3>
+          <p class="ckpr-product-desc">Автоматизация постановки задач на портале посредством отправки электронного письма на выделенный адрес</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-email-to-task.png" alt="Модуль постановки задач из почты">
+          </div>
+          <a href="page:#landing_email_to_task" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Smart AI</h3>
+          <p class="ckpr-product-desc">Сервис проверки заголовков задач на соответствие критериям SMART с помощью ИИ</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-smart-ai.png" alt="Smart AI">
+          </div>
+          <a href="page:#landing_smart_ai" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Избранные комментарии</h3>
+          <p class="ckpr-product-desc">Быстрое сохранение и доступ к важным комментариям в задачах и обсуждениях с помощью отметки «Избранное»</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-favorite-comments.png" alt="Избранные комментарии">
+          </div>
+          <a href="page:#landing_favorite_comments" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="ckpr-product">
+          <h3 class="ckpr-product-title">Виджет «Прогноз погоды»</h3>
+          <p class="ckpr-product-desc">Текущая погода и прогноз на ближайшие дни прямо на главной странице портала</p>
+          <div class="ckpr-product-logo">
+            <img src="<?= $logoPath ?>/logo-weather-widget.png" alt="Виджет «Прогноз погоды»">
+          </div>
+          <a href="page:#landing_weather_widget" class="ckpr-product-btn">
+            Перейти к странице продукта
+            <span class="ckpr-product-btn-arrow">→</span>
+          </a>
+        </div>
+
       </div>
-      <a href="page:#landing_smart_ai" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
     </div>
 
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Интеграция с ИСУП Тиметта</h3>
-      <p class="ckpr-product-desc">Модуль автоматизации обмена данными с ИСУП в части ресурсного планирования и вакансий</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-timetta.png" alt="Интеграция с ИСУП Тиметта">
-      </div>
-      <a href="page:#landing_timetta" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
-    </div>
-
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Интеграция с 1С:ЗУП</h3>
-      <p class="ckpr-product-desc">Модуль автоматической передачи данных об отсутствиях сотрудников из 1С:ЗУП в корпоративный портал</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-zup.png" alt="Интеграция с 1С:ЗУП">
-      </div>
-      <a href="page:#landing_zup" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
-    </div>
-
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Умные заметки</h3>
-      <p class="ckpr-product-desc">Модуль для создания и совместной работы с иерархическими заметками в корпоративном пространстве</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-smart-notes.png" alt="Умные заметки">
-      </div>
-      <a href="page:#landing_smart_notes" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
-    </div>
-
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Модуль интеграции с Visiology</h3>
-      <p class="ckpr-product-desc">Встраивание аналитических дашбордов BI-платформы Visiology в интерфейс корпоративного портала</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-visiology-integration.png" alt="Модуль интеграции с Visiology">
-      </div>
-      <a href="page:#landing_visiology_integration" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
-    </div>
-
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Модуль постановки задач из почты</h3>
-      <p class="ckpr-product-desc">Автоматизация постановки задач на портале посредством отправки электронного письма на выделенный адрес</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-email-to-task.png" alt="Модуль постановки задач из почты">
-      </div>
-      <a href="page:#landing_email_to_task" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
-    </div>
-
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Избранные комментарии</h3>
-      <p class="ckpr-product-desc">Быстрое сохранение и доступ к важным комментариям в задачах и обсуждениях с помощью отметки «Избранное»</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-favorite-comments.png" alt="Избранные комментарии">
-      </div>
-      <a href="page:#landing_favorite_comments" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
-    </div>
-
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Виджет «Прогноз погоды»</h3>
-      <p class="ckpr-product-desc">Текущая погода и прогноз на ближайшие дни прямо на главной странице портала</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-weather-widget.png" alt="Виджет «Прогноз погоды»">
-      </div>
-      <a href="page:#landing_weather_widget" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
-    </div>
-
-    <!-- Добавьте дополнительные продукты по этому шаблону -->
-    <!--
-    <div class="ckpr-product">
-      <h3 class="ckpr-product-title">Название продукта</h3>
-      <p class="ckpr-product-desc">Описание продукта</p>
-      <div class="ckpr-product-logo">
-        <img src="<?= $logoPath ?>/logo-name.png" alt="Название">
-      </div>
-      <a href="#" class="ckpr-product-btn">
-        Перейти к странице продукта
-        <span class="ckpr-product-btn-arrow">→</span>
-      </a>
-    </div>
-    -->
-    
   </div>
 </div>
